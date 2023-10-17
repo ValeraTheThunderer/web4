@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>4</title>
+    <link rel="stylesheet" href="verst.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="root">
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 d-flex justify-content-md-start justify-content-between align-items-center">
+                <img src="pictures/Billie.jpg" alt="Billie" class="logo">
+                <h5 class="name-project m-0">Web</h5>
+            </div>
+            <div class="col-12 col-md-8 d-flex justify-content-md-end flex-column justify-content-center align-items-center flex-md-row">
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="navnav"><a href="#table" class="navnavnav">Таблица</a></li>
+                        <li class="navnav"><a href="#form" class="navnavnav">Форма</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container p-0">
+        <div class="row">
+            <div class="col-12 col-md-10 mx-auto d-flex flex-column justify-content-center align-items-center">
+                <div class="block my-3 order-2 order-md-0">
+                    <ol class="list px-md-5 px-3">
+                        <li class="m-3 m-sm-2 mt-sm-3"><a href="http://kubsu.ru/">абсолютная ссылка КубГу</a></li>
+                        <li class="m-3 m-sm-2"><a href="https://kubsu.ru/">абсолютная ссылка КубГу в протаколе https</a></li>
+                        <img class="vitalya" src="pictures/vitalya.jpg" width="800" height="600" alt="тег map">
+                        <li class="m-3 m-sm-2"><a href="lvl1/lvl2/page3.html">cокращенная ссылка на внутреннюю страницу</a></li>
+                        <li class="m-3 m-sm-2"><a href="./index.html">ссылка на главную</a></li>
+                        <li class="m-3 m-sm-2"><a href="#bottom">нижняя часть страницы(фрагмент текущей)</a></li>
+                        <li class="m-3 m-sm-2"><a href="http://kubsu.ru/?product=socks&color=black&size=m">ссылка с тремя параметрами кубгу</a>
+                        </li>
+
+                        <li class="m-3 m-sm-2"><a href="https://en.wikipedia.org/wiki/Web_browsing_history?id=Research">Ссылка с параметром id</a>
+                        </li>
+                        <li class="m-3 m-sm-2"><a href="page2.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                        <li class="m-3 m-sm-2"><a href="about/about.html">Относительная ссылка на about в каталоге about</a></li>
+
+                        <li class="m-3 m-sm-2"><a href="page2.html">ссылка на два каталога ниже(выше на 2 будет на странице под
+                            этой
+                            ссылке)</a></li>
+                        <li class="m-3 m-sm-2"><p>Мы все учимся в <a id="aInText" href="https://kubsu.ru/">КубГу</a>(контекстная ссылка в тексте)
+                        </p>
+                        </li>
+                        <li class="m-3 m-sm-2"><a href="https://en.wikipedia.org/wiki/Web_browsing_history#Personalized_pricing">ссылка на секцию в
+                            стороннем
+                            сайте</a></li>
+                        <li><p>map</p>
+                            <map name="img" style="margin: 30px">
+                                <area href="https://kubsu.ru/" shape="rect" coords="0,0,100,100" alt="ссылка на квадратном объекте">
+                                <area href="https://kubsu.ru/" shape="circle" coords="200,200,50" alt="ссылка на круглом объекте">
+                            </map></li>
+                        <img src="pictures/misha.jpg" alt="картинка" usemap="#img" style="width: 800px; height: 580px">
+                        <li class="m-3 m-sm-2"><a href="">ссылка с пустым href</a></li>
+                        <li class="m-3 m-sm-2"><a> ссылка без href</a></li>
+                        <li class="m-3 m-sm-2"><a href="https://kubsu.ru/" rel="nofollow">ссылка по которой нельзя следовать яндексу</a></li>
+                        <li class="m-3 m-sm-2"><a href="https://kubsu.ru/">ссылка по которой нельзя индексировать яндексу</a>
+
+                        </li>
+                        <li class="m-3 m-sm-2">
+                            <ol>
+                                <li title="первый"><a href="index2.html">ссылка в списке 1</a></li>
+                                <li title="второй"><a href="index1.2.html">ссылка в списке 2</a></li>
+                                <li title="третий"><a href="about/about2/index4.html">ссылка в списке 3</a></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <div class="front-block first-table ">
+                    <table>
+                        <caption>таблица</caption>
+                        <thead>
+                        <tr>
+                            <th scope="col">1 колонка</th>
+                            <th scope="col">2 колонка</th>
+                            <th scope="col">3 колонка</th>
+                            <th scope="col">4 колонка</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="chet-item">
+                            <th scope="row">1 урок</th>
+                            <td>дата</td>
+                            <td>задание</td>
+                            <td>текст задания</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2 урок</th>
+                            <td>дата</td>
+                            <td>задание</td>
+                            <td>текст задания</td>
+                        </tr>
+                        <tr class="chet-item">
+                            <th scope="row">3 урок</th>
+                            <td>дата</td>
+                            <td>задание</td>
+                            <td>текст задания</td>
+                        </tr>
+                        <tr><a id="table"></a>
+                            <th scope="row">4 урок</th>
+                            <td>дата</td>
+                            <td>задание</td>
+                            <td>текст задания</td>
+                        </tr>
+                        <tr class="chet-item">
+                            <th scope="row">5 урок</th>
+                            <td>дата</td>
+                            <td>задание</td>
+                            <td>текст задания</td>
+                        </tr>
+                        <a id="table"></a>
+                        <tr>
+                            <th scope="row">6 урок</th>
+                            <td>дата</td>
+                            <td>задание</td>
+                            <td>текст задания</td>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                        <tr class="chet-item">
+                            <th scope="row" colspan="2">Итоги</th>
+                            <td colspan="2">  </td>
+                        </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <form method="post" action="/" class="forms front-block">
+                    <a id="form"></a>
+                    <br><strong>Как вас зовут?</strong></br>
+                    <input maxlength="25" size="40">
+                    <p>Email: <input type="email" name="login" required></p>
+                    <p>дата рождения <input type="date" id="start" name="trip-start" required></p>
+                    <p>выберите пол</p>
+                    <p><input name="мужской" type="radio" value="мужской" >мужской</p>
+                    <p><input name="женский" type="radio" value="женский" >женский</p>
+
+
+                    <p>Какой ваш любимый язык программирования?</p>
+                    <p><select name="select" size="5" multiple>
+                        <option selected value="1">C++</option>
+                        <option value="2">PHP</option>
+                        <option value="3">Pascal</option>
+                        <option value="4">C#</option>
+                        <option value="5">C</option>
+
+                    </select>
+
+                    <p> О себе:</p>
+                    <p><textarea name="биография"></textarea></p>
+
+
+                    <p><input type="checkbox" name="1" value="с контрактом ознакомлен(а)" required>с контрактом ознакомлен(а)</p>
+                    <p>
+                        <input type="submit" value="Отправить" required></p>
+                    </p>
+
+
+                </form>
+            </div>
+</main>
+
+<footer>
+    <a id="bottom"></a>
+    <p>Преподаватель: Синица</p><br>
+    <p>Студент: Шпарага</p>
+
+</footer>
+
+</body>
+</html>

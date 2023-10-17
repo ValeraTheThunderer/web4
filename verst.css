@@ -1,0 +1,56 @@
+.root {
+    background-color: #f5eded;
+}
+
+header {
+    background-color: lightseagreen;
+    box-shadow: 5px 0 1px black;
+}
+
+footer {
+    background-color: lightseagreen;
+    box-shadow: -5px 0 1px black;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #0f0f0f;
+    transition: 0.25s ease;
+}
+
+.nav-item:hover {
+    color: white;
+    transition: 0.25s ease;
+}
+
+.block {
+    background: #cec9c9;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 95%;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.chet-item {
+    background-color: #9d9b9b;
+}
+
+.nav-item-wraper {
+    text-align: center;
+}
